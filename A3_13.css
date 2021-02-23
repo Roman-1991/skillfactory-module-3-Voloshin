@@ -265,8 +265,13 @@ hr {
 .feature_row {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: flex-start;
+	justify-content: center;
 	align-content: stretch;
+}
+
+.feature_wrap {
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .section_team {
